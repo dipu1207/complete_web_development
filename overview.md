@@ -1,8 +1,7 @@
-**this is bold**
 # First Part 
 
 
-             1: __Introduction__ : some basic concepts to familiarize us with the Web and its workings.
+             **Introduction** : some basic concepts to familiarize us with the Web and its workings.
                 Start with how the internet works and the underlying concepts of the internet.
              2: HTML5: Building our first website
              3: CSS: to allow us to style our website
