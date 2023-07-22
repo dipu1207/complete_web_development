@@ -1,11 +1,11 @@
 # First Part 
-### Introduction
-    some basic concepts to familiarize us with the Web and its workings.  
-We will start with how the internet works and the underlying concepts of the internet.  
-**HTML5** Building our first website  
- **CSS** to allow us to style our website  
- **Advance CSS** Create a background generator project  
- **Bootstrap, Templates, And building our Startup Landing Page**  that accepts emails and   Dive into newer features of CSS like flexBox and CSS Grid to get good with responsive layouts with CSS
+#### Introduction
+    Some basic concepts to familiarize us with the Web and its workings.  
+    We will start with how the internet works and the underlying concepts of the Internet.  
+#### HTML5 Building our first website  
+#### CSS to allow us to style our website  
+ Advance CSS Create a background generator project  
+ Bootstrap, Templates, And building our Startup Landing Page  that accepts emails and   Dive into newer features of CSS like flexBox and CSS Grid to get good with responsive layouts with CSS
 
 # Second Part
 
