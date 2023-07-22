@@ -1,4 +1,4 @@
-First Part :
+#First Part :
             1: Introductio: some basic concepts to get us familiar with Web and How it works.
                 Start of with how the internet works and underlying concepts of the internet.
             2: HTML5: Building our first website
@@ -7,7 +7,7 @@ First Part :
             5: Bootstrap, Templates, And building our Startup Landing Page:  that accepts emails and 
             6: Dive into newer features of CSS like flexBox and CSS Grid to get good with responsive layouts with CSS
             
-Second Part:    
+#Second Part:    
             1: JavaScript: 
             2: DOM manupulation: Actually use JavaScript  to create actions and behvaior  to our websites so that they are interactive. 
             3: Advance JavaScript:
@@ -17,7 +17,7 @@ Second Part:
             7: create own customizable portfolio 
             8: React.Js
 
-Third Part: world outside the FrontEnd
+#Third Part: world outside the FrontEnd
             1: HTTP/ JSON/ AJAX and Asysnchronous JavaScript:
             2: Backend Introduction:
             3: APIs:
