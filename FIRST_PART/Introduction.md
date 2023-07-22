@@ -1,3 +1,5 @@
-What is IP addresss?
-What is DNS?
-How DNS works?
+## What is IP addresss?
+
+## What is DNS?
+
+## How DNS works?
