@@ -26,8 +26,8 @@
              3: APIs:
 
 Fourth Part:
-1: Build Image Recognition App: submit a URL and using a Machine learning API to detect if there is a face in that photo and detect that with a square box.
-2: Introduction to NodeJs and Express: How to build a server and restful APIs  
- 3: Databases:
-4: Create Our Own Database using PostgreSQL and connect with our server to have a fully functional APP
-5: Deploy and Launch that Application
+            1: Build Image Recognition App: submit a URL and using a Machine learning API to detect if there is a face in that photo and detect that with a square box.
+            2: Introduction to NodeJs and Express: How to build a server and restful APIs  
+            3: Databases:
+            4: Create Our Own Database using PostgreSQL and connect with our server to have a fully functional APP
+            5: Deploy and Launch that Application
