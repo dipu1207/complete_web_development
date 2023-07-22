@@ -1,5 +1,6 @@
 # First Part 
-## Introduction some basic concepts to familiarize us with the Web and its workings.  
+### Introduction
+    some basic concepts to familiarize us with the Web and its workings.  
 We will start with how the internet works and the underlying concepts of the internet.  
 **HTML5** Building our first website  
  **CSS** to allow us to style our website  
