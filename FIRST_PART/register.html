@@ -3,28 +3,32 @@
     <title>Register</title>
     <head> </head>
     <body>
-        <form method="GET">
-            First Name: <input type="text" name="firstname"><br>
-            Last Name: <input type="text" name="lastname" required><br>
-            Email: <input type="email" name="email" required><br>
-            Password: <input type="password" name="password" min="5" max="20" required><br>
-            Birthday: <input type="date" name="Birthday"><br>
-            Gender:<br>
-                Male <input type="radio" name="Gender" value="Male"><br>
-                Female <input type="radio" name="Gender" value="Female"><br>
-                Other <input type="radio"  name="Gender" value="Other"><br>
-            Skills:<br>
-                <input type="checkbox" name="C++"> C++<br>
-                <input type="checkbox" name="Java">Java<br>
-                <input type="checkbox" name="SQL">SQL<br>
-            Role:<br>
-                <select name="Role"> 
-                    <option value ="Software_Developer">Software Developer</option>
-                    <option value="FrontEnd_Developer"> FrontEnd Developer </option>
-                    <option value="BackEnd_Developer"> BackEnd Developer</option>
-                </select><br>
-            <input type="submit" value="Register">
-            <input type="reset">
-        </form>
+        <!-- div is a block element  and span is a inline element. These two are containers-->
+        <div>
+            <!-- use GET instead of post -->
+            <form method="GET"> 
+                First Name: <input type="text" name="firstname"><br>
+                Last Name: <input type="text" name="lastname" required><br>
+                Email: <input type="email" name="email" required><br>
+                Password: <input type="password" name="password" min="5" max="20" required><br>
+                Birthday: <input type="date" name="Birthday"><br>
+                Gender:<br>
+                    Male <input type="radio" name="Gender" value="Male"><br>
+                    Female <input type="radio" name="Gender" value="Female"><br>
+                    Other <input type="radio"  name="Gender" value="Other"><br>
+                Skills:<br>
+                    <input type="checkbox" name="C++"> C++<br>
+                    <input type="checkbox" name="Java">Java<br>
+                    <input type="checkbox" name="SQL">SQL<br>
+                Role:<br>
+                    <select name="Role"> 
+                        <option value ="Software_Developer">Software Developer</option>
+                        <option value="FrontEnd_Developer"> FrontEnd Developer </option>
+                        <option value="BackEnd_Developer"> BackEnd Developer</option>
+                    </select><br>
+                <input type="submit" value="Register">
+                <input type="reset">
+            </form>
+        </div>
     </body>
 </html>
