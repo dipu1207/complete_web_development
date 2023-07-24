@@ -1,0 +1,15 @@
+.boxmodel{
+    border: 5px solid red;
+    display: auto;
+    padding: 20px 50px 22px 20px;  /* used to create gap inside the box. top right bottom left*/
+    margin: 40px 50px 50px 20px;/* to create spacing outside the box*/
+    /* width: 33px;
+    height: 44px; */
+}
+p{
+    font-size: 20px;
+}
+span{
+    font-size: 2em; /*this will be relative to where its written*/
+    /* font-size: 2rem;  // this will be relative to the root element  */
+}

@@ -1,17 +1,61 @@
 /* Selector{
     Property:value;
 } */
-h2{
-    color: red;
+
+*{  /*apply property in all tags*/
+    text-align: center;
+}
+body{background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJwqXW94ehSb9f0u08B60Vv3MvqrawHnwDc66mDreELg&s);
+    background-size: cover;
+
+}
+#section{
+    background-color: aquamarine;
 }
 
+h2,p{ /* applying property at two attributes together*/
+    color: #aa4139;
+    text-align: center;
+    border: 5px solid rgba(255,0,0,0.5);    
+    /* this rgba will set the alpha channel. The fourth parameter will set the opacity value, 1 means opaque, 0 means transparent */
+    cursor:pointer;
+}
+h2  p{
+    /* this is used to apply properties on all 'p' tags inside all 'h2' tags */
+    text-align: left;
+}
 /* this will be ignored because of cascading */
-p{
+p:{
     color:yellow;
 }
+
 p{
-    color: cyan;
+    text-transform:uppercase;
+    line-height: 40px;
+    font-style: italic;
+    font-weight:bold;
+    font-size: 120%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: brown;
+    background-color:chartreuse ;
 }
-p{
-    color: black;
+
+li{
+    list-style: none;
+    display: inline-block;  /*to set all things in a single line*/
+}
+
+.index_p:last-child{
+    border: 4px dashed darkblue;
+}
+.first_p{
+    border: 4px solid red;
+}
+
+img{
+    float: left;
+}
+footer{
+    clear:both;
+    text-align: center;
 }
