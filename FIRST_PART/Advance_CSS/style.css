@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+}
+.container{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+h1{
+    font-family: fantasy;
+    font-size: 3em;
+    border-bottom: 2px solid orange;
+    width: 400px;
+    text-align: center;
+    margin-top: 10px;
+    border-right: 2px solid orange;
+    box-shadow: 8px 8px 8px pink;
+
+    /* earlier we have to use 
+    -moz-box-shadow:4px 5px 5px pink; to make it works on mozzila
+    -webkit-box-shadow:4px 5px 5px pink; to make it works on safari/ chrome
+    these prefixes are not used anymore 
+    */
+
+}
+img{
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    transition: all 2s;
+    /* transform-origin:right top ; */
+
+}
+img:hover{   
+    /* transform: rotate(720deg); 
+    transform: translate(30px,30px);
+    transform: rotate(720deg);  */
+    transform: scale(1.2);
+}
