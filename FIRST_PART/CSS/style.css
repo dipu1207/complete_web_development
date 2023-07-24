@@ -4,3 +4,14 @@
 h2{
     color: red;
 }
+
+/* this will be ignored because of cascading */
+p{
+    color:yellow;
+}
+p{
+    color: cyan;
+}
+p{
+    color: black;
+}
