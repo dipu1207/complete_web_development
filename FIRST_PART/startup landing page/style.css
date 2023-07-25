@@ -13,13 +13,12 @@ body, html{
 
 h1{
     font-size: 3rem;
-    color: paleturquoise;   
+    color: lightgreen;   
 }
 
 hr{
-
-    border:2px solid #8a418a;
-    max-width: 70px;
+    border: solid 3px white;
+    max-width: 65px;
 }
 
 
@@ -41,4 +40,8 @@ hr{
     background-color: purple;
     border-color: purple;
     border-width: 4px;
+}
+
+.buffer{
+    height:10rem;
 }
