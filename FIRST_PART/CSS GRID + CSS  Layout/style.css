@@ -1,0 +1,39 @@
+.container{
+    display: grid;
+    gap: 20px;
+    grid-template-columns:1fr 1fr 1fr /* to make grids*/
+    /* grid-template-rows: 1fr; */
+}
+
+.zone{
+    cursor: pointer;
+    /* display: inline-block; */
+    text-align: center;
+    font-size: 10em;
+    border-radius: 4px;
+    border: 2px solid #bbb;
+    transition: all 0.3s linear;
+}
+.zone:hover{
+    box-shadow: rgba(0,0,0,0.8) 0px 5px 15px ;
+    transform: translate(20px);
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+    align-self: end;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.brown{
+    background-color: brown;
+}
+.purple{
+    background-color: purple;
+}
