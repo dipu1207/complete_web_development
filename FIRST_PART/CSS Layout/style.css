@@ -16,6 +16,7 @@ body{
     
 }
 
+ /* ______________________________nav bar___________________________*/
 .main_nav{
     display: flex;
     list-style: none;
@@ -45,12 +46,46 @@ a{
 .header{
     background-image: linear-gradient(to bottom, rgba(32, 101, 32,0.8),rgba(164, 164, 46,0.9));
 }
+
+ /* ______________________________cover___________________________*/
+
 .cover{
     background-image: linear-gradient(to bottom , rgba(187, 52, 187,0.7),rgb(236, 26, 26));
 }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height:40vh ;
+}
+
+
+
+ /* ______________________________Project grid___________________________*/
+
+
 .project_grid{
     background-image: linear-gradient(to bottom,rgb(50, 147, 226),rgb(39, 39, 82));
 }
-.footer{
+
+.grid_wrapper{
+    display: grid;
+    grid-gap:20px;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+}
+
+.box > img{
+    width: 100%;
+}
+.box{
+    background-color: #444;
+    padding: 90px;
+    margin: 20px;
+}
+
+/* ______________________________Footer___________________________*/
+footer{
+    text-align: center;
     background-image: linear-gradient(to bottom,rgb(163, 110, 11),rgb(92, 92, 17));
 }
